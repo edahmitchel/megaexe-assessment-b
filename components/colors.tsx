@@ -1,3 +1,6 @@
 export const colors = {
-    white: "#fff"
+    white: "#FFFFFF",
+    onboardingBtnColor: "#4425F5",
+    onboardingHospytaText: "#E32654"
+
 }
