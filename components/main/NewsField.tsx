@@ -11,6 +11,7 @@ const NewsFeedComponent: FunctionComponent<NewsFeedComponentProps> = ({ title, d
     return (
         <View style={styles.container}>
             <Image source={imageSource} style={styles.image} />
+
             <View style={styles.textContainer}>
                 <Text style={{ fontFamily: "Gilroy", fontSize: 16, color: "#8E8E93", }} >{title}</Text>
                 <Text style={{ fontFamily: "GothamPro", fontSize: 16 }}>{description}</Text>
@@ -27,16 +28,19 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'row',
         marginBottom: 10,
-        justifyContent: 'space-between',
+        justifyContent: 'center',
+        gap: 10
     },
     textContainer: {
+        // alignItems: "center",
+        justifyContent: "center",
         height: '100%',
         width: '70%',
         padding: 10,
 
 
 
-        justifyContent: 'space-between',
+        // justifyContent: 'space-between',
     },
     image: {
 
